@@ -15,7 +15,7 @@ ros2 run hik_camera take_photos.py
 //另开终端
 ros2 topic pub /photo_trigger std_msgs/msg/Empty "{}" --once
 ```
-## 识别
+## 识别及pnp结算
 ```bash
 //另开终端
 ros2 run hik_camera armor_detection_node
